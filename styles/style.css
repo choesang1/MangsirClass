@@ -1,0 +1,195 @@
+h4 {
+    color: rgb(83, 51, 5);
+}
+
+.paragraph {
+    display: flex;
+    justify-content: space-between;
+}
+
+.paragraph span {
+    color: aquamarine;
+}
+
+.paragraph img {
+    height: 100px;
+    width: 100px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    margin-top: 15px;
+    font-family: 'Poppins';
+
+}
+
+.carousel-inner p {
+    justify-content: center;
+    padding-bottom: 25%;
+    color: black;
+    font-size: 40px;
+}
+
+.carousel-inner h5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: #000;
+
+}
+
+.card-section {
+    background: #f1eded;
+    padding: 80px 0px;
+    margin: 50px;
+}
+
+.footer {
+    background-color: #06150e;
+}
+
+.footer p {
+    color: #f1eded;
+}
+
+.footer-content h2 {
+    color: #fcfcfcb7;
+}
+
+.footer-content h5,
+.footer-content p,
+.footer-links a {
+    color: #884545;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer hr {
+    background-color: #fff;
+}
+
+.first-title {
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+.description {
+    font-family: 'Poppins';
+}
+
+thead {
+    background: #ddd1d1;
+
+}
+
+tr,
+th {
+    padding: 11px;
+    border: 1px solid black !important;
+}
+
+td {
+    border: 1px solid black !important;
+
+}
+
+.card:hover {
+    background: #000;
+    color: #f5eded;
+}
+
+.box {
+    background-color: rgb(2, 11, 11);
+    width: 200px;
+    height: 50px;
+    position: relative;
+    display: inline-block;
+    animation-name: myframes;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes myframes {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+
+}
+
+/* assignment
+explore css property position and z-index
+keyframe */
+
+.positions {
+    position: relative;
+    padding: 40px 0px;
+}
+
+.positions::before {
+    content: '';
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background: #000;
+    left: 0;
+}
+
+.positions::after {
+    content: '';
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background: #e02828;
+    right: 0;
+}
+
+.positions h6 {
+    position: relative;
+    z-index: 1;
+    color: rgb(197, 157, 77);
+}
+
+.positions .right-content {
+    position: relative;
+    z-index: 2;
+    color: #000;
+}
+
+/* grid learning */
+
+.table {
+    background: url("../images/img1.jpg");
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1240px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+    .menu{
+        display: block;
+    }
+    .form img{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 920px) {
+
+}
+.col-md-3{
+    color: #ddd1d1;
+}
