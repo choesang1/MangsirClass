@@ -73,5 +73,5 @@ secondPromise("kelz world 2 ")
 .then((result)=>console.log(result))
 .catch((error)=>console.log(error)) 
 
-
+console.log('kelz');
 //https://github.com/choesang1
